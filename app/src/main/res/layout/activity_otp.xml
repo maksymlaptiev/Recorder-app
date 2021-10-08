@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activeties.Activity_otp">
+
+
+
+
+    <ImageView
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/otp_auth_logo"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pincode"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_117sdp"/>
+
+
+    <TextView
+        android:id="@+id/otp_auth_heanding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_22sdp"
+        android:text="We sent your phone message to confirm your phone number."
+        android:textAlignment="center"
+        android:textColor="#6e6e6e"
+        android:textSize="@dimen/_20sdp" />
+
+
+
+    <EditText
+        android:background="@drawable/shap_corner"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:hint=" Enter the OTP here...."
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/otp_auth_getotp"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+
+    <ProgressBar
+        android:indeterminateTint="#FFDD80"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:visibility="invisible"
+        android:id="@+id/otp_auth_progress"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.widget.Button
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/otp_auth_verifyotp"
+        android:text="Verify OTP"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/shap_otp_but" />
+
+
+
+</LinearLayout>
