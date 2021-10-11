@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722097596711",
+    "project_id": "call-recording-43da7",
+    "storage_bucket": "call-recording-43da7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722097596711:android:6bc0142538cb3ef3c26102",
+        "android_client_info": {
+          "package_name": "com.fatima.app.sevenarts.callrecording"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722097596711-qvprv9nmoh70d4h5435d59utkdpebpu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLjyTyRLn43nhe9Xk91GsvRypR2zEp4L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722097596711-qvprv9nmoh70d4h5435d59utkdpebpu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

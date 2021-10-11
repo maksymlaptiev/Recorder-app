@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+
+    <SeekBar
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/seekBar_custome_sb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/SB_timestart"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:text="02 : 20"
+        android:textSize="@dimen/_13sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar_custome_sb" />
+
+
+    <TextView
+        android:paddingStart="@dimen/_55sdp"
+        android:id="@+id/SB_timeend"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:text="02 : 20"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar_custome_sb" />
+
+
+    <ImageView
+        android:id="@+id/SB_imag_save"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/save"
+        android:text="02 : 20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SB_timestart" />
+
+    <ImageView
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_20sdp"
+        android:background="@drawable/upleft"
+        android:id="@+id/SB_imag_upleft"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/timer"
+        android:text="02 : 20"
+        app:layout_constraintStart_toEndOf="@+id/SB_imag_save"
+        app:layout_constraintTop_toBottomOf="@+id/SB_timestart" />
+
+    <ImageView
+        android:id="@+id/SB_imag_play"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/playbutton"
+        android:text="02 : 20"
+        app:layout_constraintStart_toEndOf="@+id/SB_imag_upleft"
+        app:layout_constraintTop_toBottomOf="@+id/SB_timestart" />
+
+    <ImageView
+        android:paddingEnd="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_20sdp"
+        android:background="@drawable/upright"
+        android:id="@+id/SB_imag_upright"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/five"
+        android:text="02 : 20"
+        app:layout_constraintStart_toEndOf="@+id/SB_imag_play"
+        app:layout_constraintTop_toBottomOf="@+id/SB_timeend" />
+
+    <ImageView
+        android:id="@+id/SB_imag_more"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/menuho"
+        android:text="02 : 20"
+        app:layout_constraintStart_toEndOf="@+id/SB_imag_upright"
+        app:layout_constraintTop_toBottomOf="@+id/SB_timeend" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
